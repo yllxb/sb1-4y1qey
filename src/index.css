@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply antialiased text-zinc-900;
+}
+
+::selection {
+  @apply bg-zinc-900 text-white;
+}
